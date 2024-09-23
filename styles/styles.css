@@ -1,13 +1,12 @@
 
 nav {
-    display: block;
     background-color: steelblue;
     padding: 10px;
 }
 
 nav a {
     color: white;
-    display: block;
+    display: inline-block;
     padding: 20px;
 }
 
@@ -47,6 +46,8 @@ aside {
 aside img {
     width: 200px;
     height: auto;
+    border: solid 2px white;
+    box-shadow: 0 0 20px gray;
 }
 
 p {
