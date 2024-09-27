@@ -1,18 +1,22 @@
 
 #logo-box {
-    float: center;
-    margin: 0 20px 0 0;
+    margin: auto;
     width: 200px;
 }
 
 header {
-    float: right;
+    margin: auto;
     background-color: beige;
     padding: 15px
 }
 
-nav a {
-    position: relative;
+nav {
+    text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
+    padding: 15px;
+}
+
+a {
+    margin: 1rem;
 }
