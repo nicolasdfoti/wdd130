@@ -6,7 +6,7 @@
 }
 
 header {
-    fl: right;
+    float: right;
     background-color: beige;
     padding: 15px
 }
