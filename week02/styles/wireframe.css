@@ -1,0 +1,18 @@
+
+#logo-box {
+    float: center;
+    margin: 0 20px 0 0;
+    width: 200px;
+}
+
+header {
+    fl: right;
+    background-color: beige;
+    padding: 15px
+}
+
+nav a {
+    position: relative;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
