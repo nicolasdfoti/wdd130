@@ -1,0 +1,78 @@
+:root {
+    --color1: #f1faeeff;
+    --color2: #a8dadcff;
+    --color3: #457b9dff;
+    --color4: #1d3557ff;
+}
+
+header {
+    background-color: var(--color1);
+    margin: auto;
+    padding: 0 0 120px 0;
+}
+
+.imagen {
+    max-width: 100%;
+    height: auto;
+    position: left;
+}
+
+
+.first {
+    margin: 1px;
+    width: 100;
+    background-color: brown;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px 0 100px;
+}
+
+#logo-box {
+    margin: auto;
+    width: 200px;
+}
+
+nav {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 15px;
+}
+
+nav a {
+    margin: 1rem;
+}
+
+.banners {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+    margin-top: 100px;
+}
+
+.banner {
+    text-align: center;
+    width: 30%;
+}
+
+
+#product-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.product {
+    text-align: center;
+    width: 18%;
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: bisque;
+    width: 100%;
+    text-align: center;
+}
