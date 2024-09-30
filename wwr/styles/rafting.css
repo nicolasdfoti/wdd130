@@ -93,7 +93,8 @@ footer img {
 }
 
 .hero img {
-    width: 1885px;
+    width: 100%;
+    max-width: 1885px;
     height: auto;
     margin: 2px;
     z-index: 0;
