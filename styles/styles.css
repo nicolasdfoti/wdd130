@@ -1,10 +1,19 @@
-:root {
-    --heading-background-color: steelblue;
-    --padding: 0
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(221, 221, 204);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: steelblue;
 }
 
 nav {
-    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -22,45 +31,34 @@ main {
 
 h1 {
     color: steelblue;
-}
-
-.principal {
-    padding: 1rem;
-    margin: 10px 0;
-    border-bottom: solid 1px steelblue;
+    margin: 1px;
+    border-bottom: dotted steelblue;
 }
 
 main img {
+    float: right;
     width: 200px;
     height: auto;
-    padding: 1rem;
+    padding: 1px;
+    margin: 0 0 1rem 1rem;
     border: solid 1px steelblue;
     box-shadow: 0 0 30px gray;
 }
 
-ul {
-    list-style-type: none;
-    padding: 10px;
-}
-
-ul li {
-    margin: 10px 0;
-    display: inline;
-    padding: 10px;
-}
-
 aside {
-    width: auto;
-    margin: 2rem;
-    border: solid 1px;
-    padding: var(--padding);
-    background-color: var(--heading-background-color);
-    color: white;
-    text-align: center;
+    width: 20em;
+    position: relative;
+}
+
+aside h2 {
+    position: absolute;
+    top: 30px;
+    right: 80px;
 }
 
 aside img {
     width: 200px;
+    margin: 10px;
     height: auto;
     border: solid 2px white;
     box-shadow: 0 0 20px gray;
@@ -71,11 +69,39 @@ p {
 }
 
 footer {
-    margin-top: 10px;
-    border-top: dotted 3px steelblue;
+    margin: auto;
+    border-top: dotted 1px steelblue;
     text-align: center;
 }
 
 footer p {
     color: black;
+    text-align: center;
+}
+
+
+/* Class Selectors */
+
+.box {
+    position: relative;
+    list-style-type: none;
+    width: 20em;
+    margin: 6rem;
+    border: 1px solid black;
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+    text-align: center;
+}
+
+.info {
+    width: 1000px;
+    float: right;
+    margin: 170px;
+}
+
+.info p {
+    padding: 1rem;
+    margin: 40px;
+    font-weight: bold;
 }
