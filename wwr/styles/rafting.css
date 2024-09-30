@@ -6,6 +6,8 @@
     --berkeley-blue: #1d3557ff; 
 }
 
+/* Fonts */
+
 .eb-garamond {
     font-family: "EB Garamond", serif;
     font-weight: 400;
@@ -17,6 +19,8 @@
     font-weight: 400;
     font-style: normal;
 }
+
+/* Styles */
 
 body {
     background-color: #f1faeeff;
@@ -58,6 +62,21 @@ nav a:hover {
     color: #a8dadcff;
 }
 
+section h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+
+section p {
+    font-family: "EB Garamond", serif;
+}
+
+footer img {
+    width: 50px;
+}
+
+/* Class Selectors */
+
 .hero {
     position: relative;
 }
@@ -83,9 +102,9 @@ nav a:hover {
     font-family: "EB Garamond", serif;
     position: absolute;
     align-items: center;
-    background-color: #457b9dff;
+    background-color: rgba(168, 218, 220, 0.733);
     padding: 1px;
-    margin: 200px;
+    margin: 150px;
     width: 1500px;
     top: 1px;
 }
