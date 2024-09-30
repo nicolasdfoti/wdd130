@@ -54,7 +54,7 @@ nav a {
     font-family: "EB Garamond", serif;
     font-size: 40px;
     color: black;
-    margin: 10px;
+    padding: 10px;
     text-decoration: none;
 }
 
@@ -96,6 +96,7 @@ footer img {
     width: 1885px;
     height: auto;
     margin: 2px;
+    z-index: 0;
 }
 
 .hero article {
@@ -107,6 +108,7 @@ footer img {
     margin: 150px;
     width: 1500px;
     top: 1px;
+    z-index: 1;
 }
 
 .hero h2 {
