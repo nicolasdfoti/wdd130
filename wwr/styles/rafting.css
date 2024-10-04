@@ -36,8 +36,10 @@ header {
     justify-content: space-between;
 }
 
-header img {
+header img:hover {
     margin-right: 10px;
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
 }
 
 header h1 {
@@ -71,6 +73,11 @@ section p {
     font-family: "EB Garamond", serif;
 }
 
+.section-images img:hover {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
+}
+
 footer img {
     width: 50px;
 }
@@ -96,12 +103,9 @@ footer a {
     width: 1885px;
 }
 
-.hero img {
+.hero-section img {
     width: 100%;
-    max-width: 1885px;
-    height: auto;
-    margin: 2px;
-    z-index: 0;
+    height: 40rem;
 }
 
 .hero article {
@@ -109,7 +113,7 @@ footer a {
     position: absolute;
     align-items: center;
     background-color: rgba(168, 218, 220, 0.733);
-    padding: 1px;
+    padding: 20px;
     margin: 150px;
     width: 1500px;
     top: 1px;
@@ -123,6 +127,7 @@ footer a {
 
 .hero p {
     text-align: center;
+    font-size: 30px;
 }
 
 .hero article img {
