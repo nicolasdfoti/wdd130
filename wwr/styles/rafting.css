@@ -75,6 +75,10 @@ footer img {
     width: 50px;
 }
 
+footer a {
+    text-decoration: none;
+}
+
 /* Class Selectors */
 
 .hero {
