@@ -174,12 +174,14 @@ footer a {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+}
+
+.section-images p {
     text-align: center;
     font-family: "EB Garamond", serif;
 }
 
 .image-container {
-    align-content: center;
     margin: 10px;
     flex: 1 1 300px;
     max-width: 300px;
@@ -187,7 +189,6 @@ footer a {
 
 .section-images img {
     width: 300px;
-    height: auto;
 }
 
 .section-images img:hover {
