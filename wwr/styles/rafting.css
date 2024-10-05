@@ -136,6 +136,7 @@ footer a {
 .hero article img {
     float: right;
     width: 200px;
+    border: solid 1px #1d3557ff;
 }
 
 .history {
