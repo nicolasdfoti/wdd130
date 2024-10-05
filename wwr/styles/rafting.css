@@ -159,6 +159,7 @@ footer a {
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
+    border: solid 1px white;
 }
 
 .history h2 {
@@ -189,6 +190,7 @@ footer a {
 
 .section-images img {
     width: 300px;
+    border: solid 1px #1d3557ff;
 }
 
 .section-images img:hover {
