@@ -176,7 +176,7 @@ footer a {
     flex-wrap: wrap;
 }
 
-.section-images p {
+.section-images figcaption {
     text-align: center;
     font-family: "EB Garamond", serif;
 }
