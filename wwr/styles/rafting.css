@@ -172,7 +172,8 @@ footer a {
     height: auto;
     margin-top: 20px;
     margin-bottom: 10px;
-    border: solid 1px white;
+    border: solid 3px #457b9dff;
+    box-shadow: 0 0 30px gray;
 }
 
 .history h2 {
