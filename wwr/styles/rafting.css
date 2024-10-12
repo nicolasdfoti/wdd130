@@ -104,6 +104,10 @@ footer a {
     text-decoration: none;
 }
 
+footer div a img:hover {
+    opacity: 0.5;
+}
+
 /* Class Selectors */
 
 .hero {
