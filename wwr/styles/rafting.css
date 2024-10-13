@@ -76,11 +76,6 @@ nav a:hover {
     color: #a8dadcff;
 }
 
-section h2 {
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 40px;
-}
-
 h2 {
     font-family: "EB Garamond", serif;
     font-size: 40px;
@@ -121,7 +116,7 @@ footer div a img:hover {
     font-size: 40px;
     text-align: center;
     background-color: rgba(255, 253, 253, 0.5);
-    margin: 20px 0px;
+    margin: 0;
     padding: 10px;
     width: 100%;
 }
@@ -139,7 +134,7 @@ footer div a img:hover {
     padding: 20px;
     margin: 0 auto;
     width: 80%;
-    top: 200px;
+    top: 130px;
     right: 150px;
     z-index: 1;
 }
@@ -233,3 +228,13 @@ footer div a img:hover {
 }
 
 /* Class Selectors Contact Us */
+
+.hero-contact {
+    font-family: "EB Garamond", serif;
+    align-items: center;
+    background-color: rgba(168, 218, 220, 0.733);
+    padding: 20px;
+    margin: 0;
+    width: 80%;
+    z-index: 1;
+}
