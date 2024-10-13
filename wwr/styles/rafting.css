@@ -272,6 +272,13 @@ footer div a img:hover {
     z-index: 1;
 }
 
+.contact-article p {
+    position: absolute;
+    font-size: 20px;
+    left: 250px;
+    top: 150px;
+}
+
 .contact-image {
     width: 100%;
 }
