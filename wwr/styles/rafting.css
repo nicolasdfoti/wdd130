@@ -121,20 +121,19 @@ footer div a img:hover {
     width: 100%;
 }
 
-.hero-div img {
+.hero-div img{
     width: 100%;
     height: auto;
 }
 
-.hero article {
+.hero-article {
+    background-color: rgba(168, 218, 220, 0.733);
     font-family: "EB Garamond", serif;
     position: absolute;
     align-items: center;
-    background-color: rgba(168, 218, 220, 0.733);
     padding: 20px;
-    margin: 0 auto;
     width: 80%;
-    top: 130px;
+    top: 200px;
     right: 150px;
     z-index: 1;
 }
@@ -149,8 +148,11 @@ footer div a img:hover {
     font-size: 30px;
 }
 
-.hero article img {
+.hero-article img {
     float: right;
+    position: absolute;
+    right: 10px;
+    top: 10px;
     width: 200px;
     border: solid 1px #1d3557ff;
 }
@@ -229,12 +231,47 @@ footer div a img:hover {
 
 /* Class Selectors Contact Us */
 
-.hero-contact {
-    font-family: "EB Garamond", serif;
-    align-items: center;
-    background-color: rgba(168, 218, 220, 0.733);
-    padding: 20px;
+.contact {
+    position: relative;
+    width: 100%;
+}
+
+.contact-image {
+    height: auto;
+}
+
+.contact h1 {
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(255, 253, 253, 0.5);
     margin: 0;
+    padding: 10px;
+    width: 100%;
+}
+
+.contact-article img {
+    float: right;
+    width: 300px;
+    border: solid 1px #1d3557ff;
+    margin-top: 10px;
+}
+
+.contact-article {
+    background-color: rgba(168, 218, 220, 0.733);
+    font-family: "EB Garamond", serif;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+    padding: 20px;
     width: 80%;
+    top: 130px;
+    right: 150px;
     z-index: 1;
+}
+
+.contact-image {
+    width: 100%;
 }
