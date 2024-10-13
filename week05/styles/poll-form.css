@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 0 auto;
+    width: 100%;
+}
+
+h1 {
+    margin: 1rem;
+    font-size: 1.5em;
+    color: navy;
+    text-align: center;
+}
+
+body {
+    background-color: blanchedalmond;
+    height: 58rem;
+    margin: 1px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    width: auto;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: 0.5rem;
+}
+
+legend {
+    font-family: "Playfair Display", serif;
+    color: blue;
+    font-size: 30px;
+}
+
+label {
+    text-align: center;
+    font-size: larger;
+}
+
+.pet {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+input, button, option, textarea {
+    padding: 10px;
+    font-family: inherit;
+    font-size: large;
+}
+
+textarea {
+    margin: 10px;
+}
+
+input[type=checkbox] {
+    width: 20px;
+    height: auto;
+    vertical-align: bottom;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+}
+
+button:hover {
+    color: gray;
+}
+
+footer {
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: rgba(36, 35, 35, 0.726);
+    border-top: 1px solid #ccc;
+}
+
+/* Class Selectors */
+
+.field {
+    padding: 30px;
+    width: 500px;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 20px;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+}
