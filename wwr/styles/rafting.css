@@ -108,7 +108,7 @@ footer div a img:hover {
     opacity: 0.5;
 }
 
-/* Class Selectors */
+/* Class Selectors About Us*/
 
 .hero {
     position: relative;
@@ -230,4 +230,56 @@ footer div a img:hover {
 .social-media {
     display: flex;
     justify-content: flex-end;
+}
+
+/* Class Selectors Contact Us */
+
+.contact-frame {
+    display: flex;
+    height: 100px;
+    background-color: #457b9dff;
+}
+
+.contact-frame h1 {
+    position: absolute;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    background-color: rgba(255, 253, 253, 0.5);
+    width: 100%;
+    top: 98px;
+    z-index: 1;
+}
+
+.contact-frame img {
+    position: relative;
+    width: 100px;
+    z-index: 0;
+}
+
+.contact-article {
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    font-family: "EB Garamond", serif;
+    position: absolute;
+    background-color: rgba(168, 218, 220, 0.733);
+    padding: 20px;
+    width: 80%;
+    top: 250px;
+    right: 150px;
+    z-index: 1;
+}
+
+.contact-article img {
+    width: 300px;
+    left: 230px;
+    border: solid 2px #1d3557ff;
+    box-shadow: gray;
+}
+
+.contact-image img {
+    width: 100%;
+    height: auto;
+    z-index: 1;
 }
