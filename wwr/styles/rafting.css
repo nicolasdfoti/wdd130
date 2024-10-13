@@ -241,8 +241,8 @@ footer div a img:hover {
     width: 100%;
 }
 
-.contact-image {
-    height: auto;
+.contact-image img{
+    height: 30rem;
 }
 
 .contact h1 {
@@ -256,19 +256,12 @@ footer div a img:hover {
     width: 100%;
 }
 
-.contact-article img {
-    float: right;
-    width: 300px;
-    border: solid 1px #1d3557ff;
-    margin-top: 10px;
-}
-
 .contact-article {
     background-color: rgba(168, 218, 220, 0.733);
     font-family: "EB Garamond", serif;
     position: absolute;
     display: grid;
-    grid-template-columns: 4fr 1fr;
+    grid-template-columns: 3fr 1fr;
     align-items: center;
     padding: 20px;
     width: 80%;
@@ -277,13 +270,22 @@ footer div a img:hover {
     z-index: 1;
 }
 
-.contact-article p {
-    position: absolute;
-    font-size: 20px;
-    left: 250px;
-    top: 150px;
+.contact-article img {
+    float: right;
+    width: 300px;
+    border: solid 1px #1d3557ff;
+    margin-top: 10px;
+}
+
+.contact-text p {
+    text-align: center;
+    font-size: larger;
 }
 
 .contact-image {
     width: 100%;
+}
+
+.images-form {
+    display: flex;
 }
