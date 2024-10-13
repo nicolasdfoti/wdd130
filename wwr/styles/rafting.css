@@ -208,6 +208,11 @@ footer div a img:hover {
     max-width: 300px;
 }
 
+.image-container img{
+    width: 200px;
+    height: 220px;
+}
+
 .section-images img {
     width: 300px;
     border: solid 1px #1d3557ff;
