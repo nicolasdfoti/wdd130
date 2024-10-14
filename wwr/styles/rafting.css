@@ -360,28 +360,10 @@ footer div a img:hover {
     margin: 20px;
 }
 
-.info-images {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
-
-.images-form img {
-    width: 300px;
-    border: solid 1px #1d3557ff;
-}
-
-.images-form img:hover {
-    background-color: rgb(255, 255, 255);
-    opacity: 0.7;
-}
-
 form {
     width: auto;
     margin: auto;
     padding: 20px;
-    border: 1px solid rgba(0, 0, 0, 1);
-    border-radius: 10px;
 }
 
 .field {
@@ -402,6 +384,8 @@ label {
 
 input {
     padding: 10px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
 }
 
 .form-item {
@@ -409,23 +393,21 @@ input {
     align-items: center;
 }
 
-.column1 {
-    grid-template-columns: 1fr 2fr;
-    margin: 20px 0;
-}
-
-.column1 {
-    font-weight: bold;
-}
-
-.column1 input {
-    font-family: "EB Garamond", serif;
-    font-size: 20px;
-}
-
-.form-item p{
+.form-item p {
     font-size: larger;
     font-weight: bold;
+    font-family: "Bebas Neue", sans-serif
+}
+
+.name {
+    grid-template-columns: 1fr 2fr;
+    margin: 20px 0;
+    font-weight: bold;
+    width: 95%;
+}
+
+.name label {
+    font-family: "Bebas Neue", sans-serif
 }
 
 .column2 {
@@ -433,16 +415,6 @@ input {
     flex-direction: column;
     align-items: center;
     margin: 20px 0;
-}
-
-.radio-option {
-    display: flex;
-    align-items: center;
-    margin: 5px 0;
-}
-
-.radio-option input[type="radio"] {
-    margin-right: 10px;
 }
 
 .textarea {
@@ -458,12 +430,14 @@ input {
 
 .textarea label {
     font-weight: bold;
+    font-family: "Bebas Neue", sans-serif
 }
 
 .checkbox {
     font-weight: bold;
     display: flex;
     margin-top: 20px;
+    font-family: "Bebas Neue", sans-serif
 }
 
 button {
@@ -475,4 +449,20 @@ button {
 
 button:hover {
     color: #a8dadcff;
+}
+
+.info-images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info-images img {
+    width: 300px;
+    border: solid 1px #1d3557ff;
+}
+
+.info-images img:hover {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.7;
 }
