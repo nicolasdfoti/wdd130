@@ -30,6 +30,8 @@
 body {
     background-color: #f1faeeff;
     margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 header {
@@ -145,11 +147,10 @@ footer div a img:hover {
     display: grid;
     grid-template-columns: 3fr 1fr;
     align-items: center;
-    margin: 100px auto;
-    padding: 30px;
+    margin: 100px 140px auto;
+    padding: 50px;
     width: 80%;
     top: 130px;
-    right: 150px;
     z-index: 1;
 }
 
@@ -170,7 +171,8 @@ footer div a img:hover {
     float: right;
     position: absolute;
     right: 10px;
-    width: 200px;
+    width: 250px;
+    margin-right: 10px;
     border: solid 1px #1d3557ff;
 }
 
@@ -290,7 +292,7 @@ footer div a img:hover {
     padding: 20px;
     width: 80%;
     top: 130px;
-    right: 150px;
+    right: 180px;
     z-index: 1;
 }
 
@@ -383,8 +385,12 @@ legend {
     font-size: 30px;
 }
 
+.radio-option label {
+    font-size: 25px;
+}
+
 label {
-    font-size: larger;
+    font-size: 30px;
     margin-right: 10px;
 }
 
@@ -402,7 +408,8 @@ input {
 .form-item p {
     font-size: larger;
     font-weight: bold;
-    font-family: "Bebas Neue", sans-serif
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 30px;
 }
 
 .name {
@@ -436,14 +443,15 @@ input {
 
 .textarea label {
     font-weight: bold;
-    font-family: "Bebas Neue", sans-serif
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .checkbox {
     font-weight: bold;
     display: flex;
-    margin-top: 20px;
-    font-family: "Bebas Neue", sans-serif
+    justify-content: center;
+    margin: 20px;
+    font-family: "Bebas Neue", sans-serif;
 }
 
 button {
@@ -471,4 +479,166 @@ button:hover {
 .info-images img:hover {
     background-color: rgb(255, 255, 255);
     opacity: 0.7;
+}
+
+/* Class Selectors for Home Page */
+
+.hero-article-home {
+    background-color: rgba(168, 218, 220, 0.918);
+    font-family: "EB Garamond", serif;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    align-items: center;
+    margin: 100px 140px auto;
+    padding: 70px;
+    width: 80%;
+    top: 130px;
+    z-index: 1;
+}
+
+.hero-article-home p {
+    margin: 20px auto;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    font-size: 25px;
+    left: 100px;
+}
+
+.hero-article-home h2 {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hero-article-home img {
+    float: right;
+    position: absolute;
+    right: 1px;
+    width: 350px;
+    margin-right: 10px;
+    border: solid 1px #1d3557ff;
+}
+
+.fun {
+    width: 100%;
+    margin: 20px;
+    display: grid;
+}
+
+.fun h3 {
+    text-align: center;
+    font-family: "EB Garamond", serif;
+    font-size: 30px;
+}
+
+.fun p {
+    font-family: "EB Garamond", serif;
+    text-align: left;
+    font-weight: 100;
+}
+
+.fun img {
+    width: 600px;
+    justify-self: center;
+    border: solid 10px #a8dadcff;
+}
+
+.hero-article {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.hero-article h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 60px;
+}
+
+.hero-article p {
+    font-size: 30px;
+}
+
+.form h2 {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+.payment {
+    padding: 50px;
+}
+
+.payment label {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: bold;
+}
+
+.payment select {
+    padding: 10px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+}
+
+.hero-trips h2 {
+    font-family: "EB Garamond", serif;
+}
+
+.hero-trips {
+    position: relative;
+    width: 100%;
+}
+
+.hero-div-trip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 50px;
+    z-index: 0;
+}
+
+.hero-article-trips {
+    background-color: rgba(168, 218, 220, 0.918);
+    font-family: "EB Garamond", serif;
+    position: absolute;
+    margin: 70px auto;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-article-text button {
+    background-color: #a8dadcff;
+    width: 200px;
+    padding: 10px;
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.texth2 {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #457b9dff;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.last-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure figcaption {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: bold;
 }
