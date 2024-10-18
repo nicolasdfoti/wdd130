@@ -97,6 +97,46 @@ section p {
     font-family: "EB Garamond", serif;
 }
 
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+figure figcaption {
+    font-family: "EB Garamond", serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+table {
+    border: 1px solid #1d3557ff;
+    width: 70%;
+    margin-bottom: 100px;
+    font-family: "EB Garamond", serif;
+    justify-content: center;
+}
+
+table th, tr, td {
+    border: 1px solid #1d3557ff;
+    text-align: center;
+}
+
+table th {
+    font-family: "Bebas Neue", sans-serif;
+}
+
+button {
+    margin-top: 10px;
+    width: 100px;
+    background-color: #457b9dff;
+    color: white;
+}
+
+button:hover {
+    color: #a8dadcff;
+}
+
 footer {
     background-color: #457b9dff;
     padding: 10px;
@@ -306,7 +346,7 @@ footer div a img:hover {
 
 .contact-text p {
     text-align: center;
-    font-size: larger;
+    font-size: 30px;
 }
 
 .contact-image img {
@@ -336,12 +376,12 @@ footer div a img:hover {
     border: solid 1px #000;
 }
 
-.information h3 {
-    font-family: "Bebas Neue", sans-serif;
+.information h2 {
+    font-size: 30px;
 }
 
-.information h2 {
-    text-align: center;
+.information h3 {
+    font-family: "Bebas Neue", sans-serif;
 }
 
 .information p {
@@ -452,17 +492,6 @@ input {
     justify-content: center;
     margin: 20px;
     font-family: "Bebas Neue", sans-serif;
-}
-
-button {
-    margin-top: 10px;
-    width: 100px;
-    background-color: #457b9dff;
-    color: white;
-}
-
-button:hover {
-    color: #a8dadcff;
 }
 
 .info-images {
@@ -631,14 +660,64 @@ button:hover {
     margin-bottom: 100px;
 }
 
-figure {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+/* Class Selectors for Trips */
+
+.trips-images img {
+    width: 400px;
+    margin: 0;
+    padding: 0;
 }
 
-figure figcaption {
+.trips-images1 {
+    display: flex;
+}
+
+.trips-contact-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 100px 200px 100px 200px;
+}
+
+.trips-information {
+    width: 30%;
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    justify-content: flex-start;
+    padding: 20px;
+    border: solid 1px #000;
+}
+
+.trips-information input {
+    margin-top: 30px;
+}
+
+.information h2 {
+    font-size: 30px;
+}
+
+.information p {
     font-family: "EB Garamond", serif;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: large;
+}
+
+.trips-table {
+    display: flex;
+    justify-content: center;
+}
+
+.yes {
+    color: green;
+}
+
+.no {
+    color: red;
+}
+
+.button-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
