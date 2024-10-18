@@ -455,10 +455,6 @@ input {
     margin: 20px 0;
 }
 
-.textarea {
-    margin-top: 30px;
-}
-
 .textarea textarea {
     width: 900px;
     align-self: center;
@@ -469,6 +465,7 @@ input {
 .textarea label {
     font-weight: bold;
     font-family: "Bebas Neue", sans-serif;
+    margin-top: 30px;
 }
 
 .checkbox {
