@@ -257,12 +257,6 @@ footer div a img:hover {
     flex-wrap: wrap;
 }
 
-.section-images figcaption {
-    text-align: center;
-    font-family: "EB Garamond", serif;
-    font-weight: bold;
-}
-
 .image-container {
     margin: 10px;
     flex: 1 1 300px;
@@ -272,19 +266,9 @@ footer div a img:hover {
     text-align: center;
 }
 
-.image-container img {
-    width: 200px;
-    height: 220px;
-}
-
 .section-images img {
     width: 300px;
     border: solid 1px #1d3557ff;
-}
-
-.section-images img:hover {
-    background-color: rgb(255, 255, 255);
-    opacity: 0.7;
 }
 
 .footer-info {
@@ -293,10 +277,6 @@ footer div a img:hover {
     font-weight: bold;
     flex-grow: 1;
     margin-left: 150px;
-}
-
-.social-media {
-    margin-left: auto; 
 }
 
 /* Class Selectors Contact Us */
@@ -574,10 +554,6 @@ input {
     border: solid 10px #a8dadcff;
 }
 
-.hero-article {
-    font-family: "Bebas Neue", sans-serif;
-}
-
 .hero-article h2 {
     font-family: "Bebas Neue", sans-serif;
     font-size: 60px;
@@ -689,10 +665,6 @@ input {
     border: solid 1px #000;
 }
 
-.trips-information input {
-    margin-top: 30px;
-}
-
 .information h2 {
     font-size: 30px;
 }
@@ -713,11 +685,4 @@ input {
 
 .no {
     color: red;
-}
-
-.button-item {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
 }
