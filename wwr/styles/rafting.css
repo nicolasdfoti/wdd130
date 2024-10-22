@@ -286,58 +286,6 @@ footer div a img:hover {
 
 /* Class Selectors Contact Us */
 
-.contact {
-    position: relative;
-    width: 100%;
-}
-
-.contact-image img{
-    height: 30rem;
-}
-
-.contact h1 {
-    position: absolute;
-    font-family: "Bebas Neue", sans-serif;
-    font-size: 40px;
-    text-align: center;
-    background-color: rgba(255, 253, 253, 0.5);
-    margin: 0;
-    padding: 10px;
-    width: 100%;
-}
-
-.contact-article {
-    background-color: rgba(168, 218, 220, 0.733);
-    font-family: "EB Garamond", serif;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    align-items: center;
-    margin: 0;
-    padding: 20px;
-    width: 80%;
-    top: 130px;
-    right: 180px;
-    z-index: 1;
-}
-
-.contact-article img {
-    float: right;
-    width: 300px;
-    border: solid 1px #1d3557ff;
-    margin-top: 5px;
-    margin-left: 10px;
-}
-
-.contact-text p {
-    text-align: center;
-    font-size: 30px;
-}
-
-.contact-image img {
-    width: 100%;
-}
-
 .info {
     font-family: "Bebas Neue", sans-serif;
     background-color: #457b9dff;
@@ -494,47 +442,9 @@ input {
 
 /* Class Selectors for Home Page */
 
-.hero-article-home {
-    background-color: rgba(168, 218, 220, 0.918);
-    font-family: "EB Garamond", serif;
-    position: absolute;
-    display: grid;
-    grid-template-columns: 3fr 1fr;
-    align-items: center;
-    margin: 100px 140px auto;
-    padding: 70px;
-    width: 80%;
-    top: 130px;
-    z-index: 1;
-}
-
-.hero-article-home p {
-    margin: 20px auto;
-    text-align: center;
-    font-size: large;
-    font-weight: bold;
-    font-size: 25px;
-    left: 100px;
-}
-
-.hero-article-home h2 {
-    margin: 20px auto;
-    text-align: center;
-    font-size: 40px;
-}
-
-.hero-article-home img {
-    float: right;
-    position: absolute;
-    right: 1px;
-    width: 350px;
-    margin-right: 10px;
-    border: solid 1px #1d3557ff;
-}
-
 .fun {
-    width: 100%;
-    margin: 20px;
+    width: 80%;
+    margin-left: 100px;
     display: grid;
 }
 
@@ -637,10 +547,6 @@ input {
     width: 400px;
     margin: 0;
     padding: 0;
-}
-
-.trips-images1 {
-    display: flex;
 }
 
 .trips-contact-info {
