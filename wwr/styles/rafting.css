@@ -569,6 +569,7 @@ input {
     flex-direction: column;
     text-align: center;
     justify-content: flex-start;
+    font-size: 20px;
     padding: 20px;
     border: solid 1px #000;
 }
@@ -585,12 +586,16 @@ input {
 .trips-table {
     display: flex;
     justify-content: center;
+    width: 100%;
+    font-size: 30px;
 }
 
 .yes {
     color: green;
+    font-weight: bold;
 }
 
 .no {
     color: red;
+    font-weight: bold;
 }
