@@ -278,7 +278,7 @@ footer div a img:hover {
 
 .footer-info {
     text-align: center;
-    font-size: large;
+    font-size: 30px;
     font-weight: bold;
     flex-grow: 1;
     margin-left: 150px;
@@ -350,6 +350,11 @@ form {
 .field {
     font-family: "EB Garamond", serif;
     text-align: center;
+}
+
+.field button {
+    font-size: 20px;
+    width: 200px;
 }
 
 legend {
