@@ -462,7 +462,8 @@ input {
 .fun p {
     font-family: "EB Garamond", serif;
     text-align: left;
-    font-weight: 100;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .fun img {
