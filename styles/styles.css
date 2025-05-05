@@ -24,6 +24,8 @@ nav a {
 }
 
 main {
+    width: auto;
+    height: auto;
     text-align: center;
     margin: 3rem auto;
 }
