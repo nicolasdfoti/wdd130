@@ -70,8 +70,8 @@ p {
 }
 
 footer {
-    margin: auto;
-    border-top: dotted 1px steelblue;
+    margin-top: auto;
+    border-top: solid 1px steelblue;
     text-align: center;
 }
 
